@@ -5,7 +5,7 @@ Once I have a raw data collected form zillow.com, I use the DataFiltter.py scrip
 Clean dataset is divided into training and test dataset using the TrainingTestSplit.py script. Here we decided 80% training and 20% for test but can be changed easily. Training dataset is used for creating the linear regression model and test dataset is used to evaluate and compare our result with actual sold price and Zillow’s estimate price(zestimate). 
 Our model and the prediction is generated using CreateModel.py script which will generate some plots and result_out file which will have the prediction and model equation. 
 
-Here I included the raw_data.csv, DataFilter.py, CheckNoise.py, CreateModel.py.
+Here I included the raw_data.csv, DataFilter.py, CheckNoise.py, TrainTestSplit.py, CreateModel.py.
 
 # How to use these Script:
 
