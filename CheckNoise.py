@@ -70,7 +70,7 @@ for line in lines:
                 cr+=1
 print 'Number of records : ', cr-1
 
-#converting all the attribute to numpy.dnarray
+#converting all the attributes to numpy.dnarray
 zest = np.array(zest)
 soldprice = np.array(soldprice)
 age = np.array(age)
